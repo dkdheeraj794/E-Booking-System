@@ -1,0 +1,9 @@
+applications:
+- name: E-Booking_System
+  memory: 1000M
+  path: target\E-Booking_System-0.0.1-SNAPSHOT.jar
+  random-route: true
+  buildpacks:
+  - sap_java_buildpack
+  services:
+  - bookingsystems
